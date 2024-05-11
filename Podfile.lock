@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - GTCommonSDK (3.0.8.0):
+    - ZXSDK
+  - GTExtensionSDK (3.0.1)
+  - GTSDK (3.0.2.0):
+    - GTCommonSDK (>= 3.0.3.0)
+  - ZXSDK (3.2.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0)
+  - GTCommonSDK
+  - GTExtensionSDK
+  - GTSDK
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - GTCommonSDK
+    - GTExtensionSDK
+    - GTSDK
+    - ZXSDK
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  GTCommonSDK: 5ff368025f543cf923e2bebafe986f1be3fa995e
+  GTExtensionSDK: ddf0dd4e985ace31c2e86b13a3d47c4b4705f23e
+  GTSDK: 1a8065ef2f2c2facf744c70b4406b2a38299ac66
+  ZXSDK: 145a89f90f11e18e4fe62fe43175a60ade342ba8
+
+PODFILE CHECKSUM: e3c31e986c444242923cfc5276ee1fa771361564
+
+COCOAPODS: 1.14.3
